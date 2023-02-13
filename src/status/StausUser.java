@@ -24,6 +24,9 @@ switch(code.toUpperCase())
         break;
         case "THREE": 
             System.out.println("User Status APPROVED");
+            break;
+            case "FOUR": 
+            System.out.println("User Status APPROVED");
         break;
         default:
          System.out.println("NOT VALID CODE");
