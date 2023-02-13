@@ -15,15 +15,15 @@ public class StausUser
 {
 switch(code.toUpperCase())
         {
-        case "ZERO": System.out.println("REJECTED");
+        case "ZERO": System.out.println("User status REJECTED");
         break;
-        case "ONE": System.out.println("PENDING");
+        case "ONE": System.out.println("User status PENDING");
         break;
         case "TWO":
-        System.out.println("PROCESSING");
+        System.out.println("User status PROCESSING");
         break;
         case "THREE": 
-            System.out.println("APPROVED");
+            System.out.println("User status APPROVED");
         break;
         default:
          System.out.println("NOT VALID CODE");
